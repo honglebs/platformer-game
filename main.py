@@ -1,5 +1,5 @@
 import pygame as pg, sys
-import settings
+from settings import *
 
 pg.init()
 screen = pg.display.set_mode((screen_width, screen_height))
